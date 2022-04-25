@@ -9,7 +9,7 @@ pipeline {
         stage('sample 2') { 
             steps { 
                echo 'addition...' 
-               sh 'python ritvik.py'
+               sh 'python3 ritvik.py'
               //bat 'mvn package'
             }
         }
